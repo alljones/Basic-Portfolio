@@ -1,4 +1,8 @@
-/*   */
+/*
+=========================
+BASIC STYLING
+=========================
+*/
 body {
     font-size: .1.25em;
     line-height: 1.5em;
@@ -8,7 +12,58 @@ body {
     background-repeat:repeat;
 
 }
-/************   HEADER   ************/
+
+h1, h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;.
+}
+
+h1 {
+    font-size: 2em;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    min-height:  calc(100vh - 70px);
+    width: 93.5%;
+    margin: 0 auto;
+}
+section, aside {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 2.5%;
+}
+
+
+aside {
+    width: 30%;
+    float: right;
+    margin: 0 auto;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+    background-color: #666;
+    border-top: 5px solid #4aaaa5;
+    width: 100%;
+    height: 50px;
+}
+/*
+=========================
+HEADER
+=========================
+*/
 header {
     background-color: #fff;
     border-bottom: 2px solid #ccc;
@@ -29,7 +84,7 @@ header {
     font-size: 2.5em;
     border: none;
 }
-/************   Navingation   ************/
+/************   Nav   ************/
 nav {
     display: inline;
     position: relative;
@@ -59,45 +114,18 @@ li a:hover {
     color: #4aaaa5;
 }
 
-h1, h2 {
-    color: #4aaaa5;
-    border-bottom: 2px solid #ccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;.
-}
+/*
+=========================
+CONTENT STYLES
+=========================
+*/
 
-h1 {
-    font-size: 2em;
-    padding: 15px 0;
-    margin-bottom: 15px;
-}
-
-h2 {
-    font-size: 1.5em;
-    padding: 15px 0;
-    margin-bottom: 15px;
-}
-
-.wrapper {
-    width: 93.5%;
-    margin: 0 auto;
-}
-section, aside {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 2.5%;
-}
 .main {
     width: 58%;
     float: left;
     margin-bottom: 50px;
 }
 
-aside {
-    width: 30%;
-    float: right;
-    margin: 0 auto;
-   
-}
 
 .profile {
     width: 200px;
@@ -111,26 +139,12 @@ aside {
     padding-right: 10px;
 }
 
-
-footer {
-    clear: both;
-    text-align: center;
-    padding: 20px;
-    color: #ccc;
-    background-color: #666;
-    border-top: 5px solid #4aaaa5;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}
 /************   Portfolio  ************/
-.project {
-    margin-right: 26px;
-}
+
 
 /************   Form  ************/
 input {
-    width: 100%;
+    width: 95%;
     padding: 1.5%;
     font-size: 1.05em;
     margin-bottom: 1.5%;
@@ -147,7 +161,7 @@ input {
 }
 
 textarea {
-    width: 100%;
+    width: 95%;
     height: 150px;
     padding: 1.5%;
 }
