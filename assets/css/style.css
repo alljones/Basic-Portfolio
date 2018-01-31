@@ -1,0 +1,133 @@
+/*   */
+body {
+    font-size: .1.25em;
+    line-height: 1.5em;
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image:url("../../assets/images/dust_scratches.png");
+    background-repeat:repeat;
+
+}
+/************   HEADER   ************/
+header {
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#brand {
+    color: #fff;
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 220px;
+    padding: 20px;
+    position: relative;
+    top: 24px;
+    left: 150px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 2.5em;
+    border: none;
+}
+/************   Navingation   ************/
+nav {
+    display: inline;
+    position: relative;
+    left: 800px;
+    top: -30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #4aaaa5;
+}
+
+h1, h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;.
+}
+
+h1 {
+    font-size: 2em;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.main {
+    width: 600px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.sidebar {
+    width: 230px;
+    float: right;
+    margin: 0 auto;
+   
+}
+
+.profile {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+.icon {
+    width: 25%;
+    padding-right: 10px;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+    background-color: #666;
+    border-top: 5px solid #4aaaa5;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+/************   Portfolio  ************/
+.project {
+    margin-right: 26px;
+}
+
+/************   Form  ************/
