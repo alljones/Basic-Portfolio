@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Allan Jones | Designer/Designer</title>
+    <title>Allan Jones | Contact</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -24,16 +24,23 @@
    <div class="wrapper">
        <section class="main">
            <h1>Contact</h1>
-           <form>
-    
-           </form>
+           <form action="/login" method="post">
+            <label for="username">Name:</label><br>
+            <input type="text" name="name" placeholder="John Doe"><br>
+            <label for="username">Email Address:</label><br>
+            <input type="email" name="email-address" placeholder="jdoe@gmail.com"><br>
+            <label for="username">Message:</label><br>
+            <textarea name="comment"></textarea><br>
+            <input type="submit" value="Submit">
+          </form>
+          
        </section>
-       <section class="sidebar">
-           <h2>Connect with Me</h2>
-           <a href="#"><img class="icon" src="assets/images/github-icon.svg" alt="Github Icon"/></a>
-           <a href="#"><img class="icon" src="assets/images/linkedin-icon.svg" alt="LinkedIn Icon"/></a>
-           <a href="#"><img class="icon" src="assets/images/stackoverflow-icon.svg" alt="Stackoverflow Icon"/></a>
-       </section>
+       <aside>
+        <h2>Connect with Me</h2>
+        <a href="#"><img class="icon" src="assets/images/github-icon.svg" alt="Github Icon"/></a>
+        <a href="#"><img class="icon" src="assets/images/linkedin-icon.svg" alt="LinkedIn Icon"/></a>
+        <a href="#"><img class="icon" src="assets/images/stackoverflow-icon.svg" alt="Stackoverflow Icon"/></a>
+    </aside>
    </div>
    <footer>
         <p>&copy;2018. Allan Jones. All Rights Reserved.</p>
