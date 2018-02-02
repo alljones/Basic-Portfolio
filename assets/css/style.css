@@ -152,6 +152,11 @@ CONTENT STYLES
 
 .work {
     width: 100%;
+    opacity: .6;
+}
+
+.work:hover {
+    opacity: 1;
 }
 
 
